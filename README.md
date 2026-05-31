@@ -97,14 +97,14 @@ For a robust RAG implementation, **Pinecone** is the best choice due to its full
 
 **Using uv (recommended):**
 ```bash
-git clone https://github.com/KenKaneki3/TOOLWISE.git
+git clone https://github.com/KenKaneki3/ToolWise.git
 cd TOOLWISE
 uv sync
 ```
 
 **Using pip:**
 ```bash
-git clone https://github.com/KenKaneki3/TOOLWISE.git
+git clone https://github.com/KenKaneki3/ToolWise.git
 cd TOOLWISE
 pip install -r requirements.txt
 ```
