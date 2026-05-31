@@ -1,5 +1,5 @@
 import os
-from firecrawl import FirecrawlApp, V1ScrapeOptions
+from firecrawl import FirecrawlApp
 from dotenv import load_dotenv
 
 load_dotenv()

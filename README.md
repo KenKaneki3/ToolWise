@@ -29,32 +29,60 @@ Each step is a node in a LangGraph `StateGraph`, passing a shared `ResearchState
 ## Example Output
 
 ```
-$ python main.py "open source observability tools"
+$ Developer Tools Research Agent
 
-🔍 Finding articles about: open source observability tools
-Extracted tools: Grafana, Prometheus, OpenTelemetry, Jaeger, Signoz
+🔍 Developer Tools Query: best vector databases for RAG
+🔍 Finding articles about: best vector databases for RAG
+Extracted tools: pgvector, Pinecone, Qdrant, Weaviate, Milvus
+🔬 Researching specific tools: pgvector, Pinecone, Qdrant, Weaviate
+Generating recommendations
 
-🔬 Researching specific tools: Grafana, Prometheus, OpenTelemetry, Jaeger
-
-📊 Results for: open source observability tools
+📊 Results for: best vector databases for RAG
 ============================================================
 
-1. 🏢 Grafana
-   🌐 Website: https://grafana.com
-   💰 Pricing: Freemium
+1. 🏢 pgvector
+   🌐 Website: https://elest.io/open-source/pgvector/resources/plans-and-pricing
+   💰 Pricing: Paid
    📖 Open Source: True
-   🛠️  Tech Stack: Go, React, Prometheus, InfluxDB, Elasticsearch
-   💻 Language Support: Python, Go, Java, JavaScript
+   🛠️  Tech Stack: PostgreSQL, pgvector
+   🔗 Integrations: AWS, Digital Ocean, VULTR, Linode
+   📝 Description: pgvector is an open-source extension for PostgreSQL that enables efficient storage and querying of vector embeddings, making it ideal for machine learning applications.
+
+
+2. 🏢 Pinecone
+   🌐 Website: https://www.pinecone.io/pricing/
+   💰 Pricing: Freemium
+   📖 Open Source: False
+   🛠️  Tech Stack: Pinecone Database, Inference, Assistant, Dense Indexes, Sparse Indexes
+   💻 Language Support: Python
    🔌 API: ✅ Available
-   🔗 Integrations: Prometheus, Loki, AWS CloudWatch, Datadog
-   📝 Description: Open-source analytics and monitoring platform for visualizing metrics.
+   🔗 Integrations: AWS, Google Cloud Platform, Microsoft Azure, Prometheus
+   📝 Description: Pinecone is a fully managed vector database designed for building and scaling AI applications effortlessly.
 
-...
 
-Developer Recommendations:
+3. 🏢 Qdrant
+   🌐 Website: https://qdrant.tech/pricing/
+   💰 Pricing: Freemium
+   📖 Open Source: None
+   🛠️  Tech Stack: API, Terraform, Pulumi, CLI, AWS
+   🔌 API: ✅ Available
+   🔗 Integrations: AWS, Azure, GCP, Terraform
+   📝 Description: Qdrant is a fully managed vector search engine that enables developers to build and scale applications with efficient data retrieval capabilities.
+
+
+4. 🏢 Weaviate
+   🌐 Website: https://weaviate.io/pricing
+   💰 Pricing: Freemium
+   📖 Open Source: None
+   🛠️  Tech Stack: AI Database, Hybrid Search, Dynamic Index, Compression, Multi-tenancy
+   💻 Language Support: Python, JavaScript, Go
+   🔌 API: ✅ Available
+   🔗 Integrations: AWS, GCP, Azure, Metrics Monitoring
+   📝 Description: Weaviate is a fully managed AI database that enables developers to build and scale AI applications with features like hybrid search and dynamic indexing.
+
+Developer Recommendations: 
 ----------------------------------------
-Grafana + Prometheus is the industry-standard stack for open source observability...
-```
+For a robust RAG implementation, **Pinecone** is the best choice due to its fully managed service and seamless scaling capabilities. It offers a freemium pricing model, making it accessible for initial projects while allowing for growth. Its main technical advantage is the ease of integration with major cloud providers and its optimized performance for AI applications.
 
 ---
 

@@ -1,7 +1,7 @@
 [project]
 name = "ToolWise"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-powered agentic research tool that discovers, scrapes, and compares developer tools using LangGraph and GPT-4o-mini"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
